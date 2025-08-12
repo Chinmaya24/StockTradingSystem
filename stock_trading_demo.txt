@@ -1,0 +1,325 @@
+STOCK TRADING SYSTEM - DEMO SCRIPT
+====================================
+
+This script provides step-by-step instructions to test all features of the stock trading simulation system.
+
+PRE-REQUISITES:
+==============
+- Java installed and accessible via 'java' command
+- StockTradingSystem.java compiled successfully
+- Basic understanding of stock trading concepts
+
+DEMO SESSION FLOW:
+==================
+
+STEP 1: SYSTEM OVERVIEW
+-----------------------
+1. Run the program: java StockTradingSystem
+2. View the welcome message and main menu
+3. Notice the 8 main menu options available
+
+STEP 2: EXPLORE MARKET DATA (No Login Required)
+-----------------------------------------------
+3 (View Market Data)
+- Observe the 8 pre-loaded stocks
+- Note current prices, changes, and volumes
+- See the formatted table display
+
+4 (View All Stocks)
+- View complete stock information
+- Note market capitalization calculations
+- See available shares for each stock
+
+5 (View All Users)
+- View the 3 sample users
+- Note their balances and portfolio values
+- See net worth calculations
+
+6 (View Transaction History)
+- View system-wide transaction history
+- Note the initial transactions from sample data
+
+STEP 3: MARKET SIMULATION
+-------------------------
+7 (Simulate Market Movement)
+- Watch as all stock prices change randomly
+- See price movements between -5% and +5%
+- Notice how previous prices are tracked
+- Run this multiple times to see different movements
+
+STEP 4: USER REGISTRATION
+-------------------------
+2 (Register New User)
+- Username: trader1
+- Password: trading123
+- Full Name: Demo Trader
+- Initial Balance: 25000
+- Confirm successful registration
+
+STEP 5: USER LOGIN & DASHBOARD
+------------------------------
+1 (User Login)
+- Username: trader1
+- Password: trading123
+- Enter the user dashboard
+- Note your balance, portfolio value, and net worth
+
+STEP 6: PORTFOLIO MANAGEMENT
+----------------------------
+1 (View Portfolio)
+- See empty portfolio (no stocks yet)
+- Note your cash balance
+
+6 (Deposit Funds)
+- Deposit: 5000
+- Confirm new balance
+
+7 (Withdraw Funds)
+- Withdraw: 2000
+- Confirm new balance
+
+STEP 7: STOCK TRADING - BUY OPERATIONS
+--------------------------------------
+2 (Buy Stock)
+- Stock Symbol: AAPL
+- Number of Shares: 20
+- Confirm purchase
+- Note transaction confirmation
+
+2 (Buy Stock)
+- Stock Symbol: TSLA
+- Number of Shares: 5
+- Confirm purchase
+- Note transaction confirmation
+
+2 (Buy Stock)
+- Stock Symbol: GOOGL
+- Number of Shares: 2
+- Confirm purchase
+- Note transaction confirmation
+
+STEP 8: PORTFOLIO REVIEW
+------------------------
+1 (View Portfolio)
+- See your new holdings
+- Note average purchase prices
+- Calculate total portfolio value
+- Verify net worth calculation
+
+STEP 9: MARKET MONITORING
+-------------------------
+4 (View Market Data)
+- Check current prices of your stocks
+- Note any price changes from simulation
+- Monitor available shares
+
+STEP 10: TRANSACTION HISTORY
+----------------------------
+5 (View Transaction History)
+- View your personal transaction log
+- Note timestamps and details
+- Verify all buy transactions
+
+STEP 11: STOCK TRADING - SELL OPERATIONS
+----------------------------------------
+3 (Sell Stock)
+- Stock Symbol: AAPL
+- Number of Shares: 10
+- Confirm sale
+- Note transaction confirmation
+
+3 (Sell Stock)
+- Stock Symbol: TSLA
+- Number of Shares: 2
+- Confirm sale
+- Note transaction confirmation
+
+STEP 12: FINAL PORTFOLIO REVIEW
+-------------------------------
+1 (View Portfolio)
+- See updated holdings
+- Note remaining shares
+- Calculate new portfolio value
+- Verify net worth changes
+
+STEP 13: LOGOUT & SYSTEM VIEW
+-----------------------------
+8 (Logout)
+- Return to main menu
+- Note successful logout
+
+5 (View All Users)
+- See updated user information
+- Note your new portfolio value
+- Verify net worth calculations
+
+6 (View Transaction History)
+- See all system transactions
+- Note your buy/sell activities
+- Verify transaction timestamps
+
+STEP 14: TEST SAMPLE ACCOUNTS
+-----------------------------
+1 (User Login)
+- Username: john
+- Password: pass123
+- View existing portfolio
+- Note pre-loaded holdings
+
+1 (View Portfolio)
+- See AAPL and GOOGL holdings
+- Note average prices and values
+
+1 (User Login)
+- Username: jane
+- Password: pass456
+- View existing portfolio
+- Note MSFT and TSLA holdings
+
+STEP 15: ADVANCED FEATURES TESTING
+----------------------------------
+7 (Simulate Market Movement)
+- Run multiple times
+- Note price changes
+- Check impact on portfolios
+
+4 (View Market Data)
+- Observe price changes
+- Note change percentages
+- Monitor volume updates
+
+STEP 16: ERROR HANDLING TESTING
+-------------------------------
+1 (User Login)
+- Try invalid username/password
+- Note error message
+
+2 (Buy Stock) - while logged in
+- Try invalid stock symbol: INVALID
+- Note error message
+
+2 (Buy Stock)
+- Try buying more shares than available
+- Note insufficient shares message
+
+2 (Buy Stock)
+- Try buying with insufficient funds
+- Note insufficient funds message
+
+3 (Sell Stock)
+- Try selling stock you don't own
+- Note error message
+
+3 (Sell Stock)
+- Try selling more shares than owned
+- Note error message
+
+STEP 17: SYSTEM LIMITS TESTING
+------------------------------
+2 (Register New User)
+- Try registering with existing username
+- Note duplicate username error
+
+2 (Buy Stock)
+- Try buying 0 or negative shares
+- Note validation error
+
+6 (Deposit Funds)
+- Try depositing 0 or negative amount
+- Note validation error
+
+STEP 18: FINAL SYSTEM REVIEW
+----------------------------
+3 (View Market Data)
+- Final market overview
+- Note all current prices
+
+4 (View All Stocks)
+- Complete stock listing
+- Note market caps and availability
+
+5 (View All Users)
+- All user summary
+- Note portfolio performances
+
+6 (View Transaction History)
+- Complete transaction log
+- Note system activity
+
+8 (Exit)
+- Close the application
+
+EXPECTED RESULTS:
+================
+
+✅ **User Management**
+- Successful user registration
+- Secure login/logout system
+- User profile management
+
+✅ **Portfolio Tracking**
+- Real-time portfolio calculations
+- Average price tracking
+- Net worth monitoring
+
+✅ **Trading Operations**
+- Successful buy/sell transactions
+- Transaction validation
+- Balance management
+
+✅ **Market Simulation**
+- Dynamic price movements
+- Price change tracking
+- Volume management
+
+✅ **Data Display**
+- Formatted tables
+- Real-time updates
+- Comprehensive information
+
+✅ **Error Handling**
+- Input validation
+- Business rule enforcement
+- User-friendly error messages
+
+✅ **Transaction History**
+- Complete audit trail
+- Timestamp tracking
+- User activity monitoring
+
+TIPS FOR SUCCESSFUL DEMO:
+========================
+
+1. **Follow the sequence** - Each step builds on the previous
+2. **Observe changes** - Watch how data updates throughout
+3. **Test boundaries** - Try edge cases and error conditions
+4. **Monitor balances** - Keep track of cash and portfolio values
+5. **Verify calculations** - Check that math is accurate
+6. **Test multiple users** - See how different accounts work
+7. **Run simulations** - Experience dynamic market changes
+8. **Review history** - Check transaction logs and user data
+
+ADVANCED TESTING SCENARIOS:
+==========================
+
+**Portfolio Diversification**
+- Buy stocks from different sectors
+- Monitor portfolio balance
+- Test risk management
+
+**Market Timing**
+- Buy before market simulation
+- Sell after price increases
+- Track profit/loss
+
+**Volume Management**
+- Buy large quantities
+- Test share availability
+- Monitor market impact
+
+**User Interaction**
+- Multiple simultaneous users
+- Portfolio comparisons
+- Performance benchmarking
+
+This demo script covers all major features and provides a comprehensive testing experience for the stock trading simulation system.
